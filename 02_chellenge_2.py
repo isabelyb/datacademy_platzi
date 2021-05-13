@@ -23,5 +23,3 @@ def stone_paper_scissors(player_1, player_2):
 
 if __name__ == '__main__':
     stone_paper_scissors(player_1, player_2)
-    
-
