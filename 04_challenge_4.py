@@ -12,13 +12,17 @@ height = int(input("height: "))
 radio = int(input("radio: "))
  
 
+def main():
+    result = vol_cil(height, radio)
+    print(f"The cilinder's volume is: {result} cubic cm")
+
 def vol_cil(height, radio):
     area = PI * (radio**2)
     result = round((area * height), 2)
-    return print(f"The cilinder's volume is: {result} cubic cm")
+    return result
     
 if __name__ == '__main__':
-    vol_cil(height, radio)
+    main()
     
     
     
