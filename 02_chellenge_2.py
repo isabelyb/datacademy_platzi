@@ -1,9 +1,5 @@
 """Escribe un programa que reciba como parámetro “piedra”, “papel”, o “tijera” y 
 determine si ganó el jugador 1 o el jugador 2.
-
-Bonus: determina que el ganador sea el jugador que gane 2 de 3 encuentros.
-
-ppt(“piedra”, “papel”) ➞ “El ganador es el jugador 2
 """
 import random
 
