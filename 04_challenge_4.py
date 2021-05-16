@@ -9,15 +9,15 @@ import math
 
 PI = math.pi
 height = int(input("height: "))
-radio = int(input("radio: "))
+radius = int(input("radius: "))
  
 
 def main():
-    result = vol_cil(height, radio)
+    result = vol_cil(height, radius)
     print(f"The cilinder's volume is: {result} cubic cm")
 
-def vol_cil(height, radio):
-    area = PI * (radio**2)
+def vol_cil(height, radius):
+    area = PI * (radius**2)
     result = round((area * height), 2)
     return result
     
