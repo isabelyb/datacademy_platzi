@@ -3,11 +3,9 @@ Para no estar repitiendo este cálculo escribe un programa en que el usuario ind
 una cantidad de millas y en pantalla se muestre el resultado convertido a kilómetros.
 
 Toma en cuenta que en cada milla hay 1.609344 Km
-
-Bonus: haz que el usuario pueda escoger entre convertir millas a kilómetros o kilómetros a millas.
 """
 
-miles = int(input("How many miles do you want ton convert into km? "))
+miles = int(input("How many miles do you want to convert into km? "))
 
 
 def main():
@@ -22,12 +20,4 @@ def miles_to_km():
 
 if __name__ == '__main__':
     main()
-
-
-
-#km = int(input("How many km?"))
-    # km_to_miles = km * 0.621371
-# def converter(miles):
-#     pass
-
 
